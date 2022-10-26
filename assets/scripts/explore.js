@@ -16,7 +16,6 @@ function init() {
   setTimeout(() => {
 
     if(!voicesUpdated) {
-      alert("HERE");
       addVoices(speechSynthesis);
     }
   }, 500);
